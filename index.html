@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Codificador de Texto</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <header class="logo">
+            <h1>a</h1>
+        </header>
+    
+        <main class="formulario w-100">
+            <textarea class="input-text-area" id="texto" placeholder="Ingrese el texto aquí"></textarea>
+            
+            <div class="grupo-btn">
+                <button class="btn-primario" id="btn-encriptar">Encriptar</button>
+                <button class="btn-secundario" id="btn-decifrar">Desencriptar</button>
+            </div>
+        </main>
+
+        <div class="formulario resultado w-100" id="div-resultado">
+            <textarea class="input-text-area" id="resultado" placeholder="Ningún mensaje fue encontrado"></textarea>            
+        </div>
+    </main>
+    </div>
+
+    
+    <script src="./app.js"></script>
+</body>
+</html>
